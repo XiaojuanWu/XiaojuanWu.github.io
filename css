@@ -1,15 +1,4 @@
-div {
-    text-align: justify;
-}
-
-div img {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-}
-
-div:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
+.imageContainer > img:hover {
+  width: 500px;
+  height: 200px;
 }
